@@ -1,10 +1,9 @@
 # SiCo Readme
-  ## License => MIT License
 
-  ## SiCo is an intelligence management platform for DevOps。
+## License => MIT License
 
-  ## SiCo just an API so everyone can make a self UI.
-
-  ## SiCo takes jos simple and easy
-
-  ## SiCo helps you save more time to accompany your family。 
+## What is SiCo
+  - SiCo is an intelligence management platform for DevOps。
+  - SiCo just an API so everyone can make a self UI.
+  - SiCo takes jos simple and easy
+  - SiCo helps you save more time to accompany your family。 
