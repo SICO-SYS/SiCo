@@ -3,7 +3,7 @@
 [![gittter](http://tool.lu/shield/ajax.html?color=%23400090&subject=gitter&status=SiCo)](https://gitter.im/SiCo-DevOps/Lobby)
 [![slack](http://tool.lu/shield/ajax.html?color=%23400090&subject=slack&status=SiCo)](https://sico-ops.slack.com/)
 
-### LICENSE(FOR ALL)  => [MIT License])(https://github.com/SiCo-DevOps/SiCo/blob/master/LICENSE)
+### LICENSE(FOR ALL)  => [MIT License](https://github.com/SiCo-DevOps/SiCo/blob/master/LICENSE)
 
 ### WHAT IS SiCo
   - SiCo is an intelligence management platform for DevOps。
