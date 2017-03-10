@@ -17,7 +17,7 @@
   - we use sentry.io to know what problem in sico, find bugs easy.
   - we use new relic to track our API performance.
   - we use slack to communicate with every developer who want to be a contributor.
-  - we will use jira to assign tasks & arrange the release plan.
+  - we will use jira to assign tasks & arrange the release planning.
 
 ### HOW TO REPORT AN ISSUE
   * Open an issue on relate project
