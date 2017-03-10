@@ -6,7 +6,7 @@
 ### LICENSE(FOR ALL)  => [MIT License](https://github.com/SiCo-DevOps/SiCo/blob/master/LICENSE)
 
 ### WHAT IS SiCo
-  - SiCo is an intelligence management platform for DevOps。
+  - SiCo is an intelligence operation platform for DevOps。
   - SiCo just an API so everyone can make a self UI.
   - SiCo takes jos simple and easy
   - SiCo helps you save more time to accompany your family。 
