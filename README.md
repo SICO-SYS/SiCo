@@ -81,3 +81,11 @@ An element for scheduler service
 [![sentry](http://tool.lu/shield/ajax.html?color=%23400090&subject=sentry&status=SiCo-N)](https://sentry.io/sico/N/)
 
 An element for orchestration service
+
+### DONATE
+
+[![Donate](http://tool.lu/shield/ajax.html?color=%234C1&subject=Paypal&status=$1)](https://paypal.me/sinerwr/1)
+[![Donate](http://tool.lu/shield/ajax.html?color=%234C1&subject=Paypal&status=$5)](https://paypal.me/sinerwr/5)
+[![Donate](http://tool.lu/shield/ajax.html?color=%234C1&subject=Paypal&status=$10)](https://paypal.me/sinerwr/10)
+
+YOU CAN ALSO GIVE A DONATE TO SUPPORT THIS PROJECT.
