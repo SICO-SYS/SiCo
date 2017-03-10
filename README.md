@@ -12,10 +12,11 @@
   - SiCo helps you save more time to accompany your family。 
 
 ### THIRD-PARTY SERVICE
-  - we use travis-ci to do CI,CD for initial.
+  - we use travis-ci to do CI,CD for initial，but we'll take it by this API.
   - we use gitter.im to communicate with users, a public annoncement platform.
   - we use sentry.io to know what problem in sico, find bugs easy.
-  - we use slack to communicate with every developer who want to optimize the project.
+  - we use new relic to track our API performance.
+  - we use slack to communicate with every developer who want to be a contributor.
   - we will use jira to assign tasks & arrange the release plan.
 
 ### HOW TO REPORT AN ISSUE
@@ -39,7 +40,7 @@ A Gateway for every element
 [![issue](http://tool.lu/shield/ajax.html?color=%234C1&subject=Issue&status=SiCo-He)](https://github.com/SiCo-DevOps/He/issues)
 [![sentry](http://tool.lu/shield/ajax.html?color=%23400090&subject=sentry&status=SiCo-He)](https://sentry.io/sico/He/)
 
-An element of AAA service
+An element for AAA service
 
 #### Li [Go to Project](https://github.com/SiCo-DevOps/Li)
 
@@ -47,7 +48,7 @@ An element of AAA service
 [![issue](http://tool.lu/shield/ajax.html?color=%234C1&subject=Issue&status=SiCo-Li)](https://github.com/SiCo-DevOps/Li/issues)
 [![sentry](http://tool.lu/shield/ajax.html?color=%23400090&subject=sentry&status=SiCo-Li)](https://sentry.io/sico/Li/)
 
-An element of asset service
+An element for asset service
 
 #### Be [Go to Project](https://github.com/SiCo-DevOps/Be)
 
@@ -55,7 +56,7 @@ An element of asset service
 [![issue](http://tool.lu/shield/ajax.html?color=%234C1&subject=Issue&status=SiCo-Be)](https://github.com/SiCo-DevOps/Be/issues)
 [![sentry](http://tool.lu/shield/ajax.html?color=%23400090&subject=sentry&status=SiCo-Be)](https://sentry.io/sico/Be/)
 
-An element of cloud service
+An element for cloud service
 
 #### B [Go to Project](https://github.com/SiCo-DevOps/B)
 
@@ -63,7 +64,7 @@ An element of cloud service
 [![issue](http://tool.lu/shield/ajax.html?color=%234C1&subject=Issue&status=SiCo-B)](https://github.com/SiCo-DevOps/B/issues)
 [![sentry](http://tool.lu/shield/ajax.html?color=%23400090&subject=sentry&status=SiCo-B)](https://sentry.io/sico/B/)
 
-An element of CMDB service
+An element for CMDB service
 
 #### C [Go to Project](https://github.com/SiCo-DevOps/C)
 
@@ -71,7 +72,7 @@ An element of CMDB service
 [![issue](http://tool.lu/shield/ajax.html?color=%234C1&subject=Issue&status=SiCo-C)](https://github.com/SiCo-DevOps/C/issues)
 [![sentry](http://tool.lu/shield/ajax.html?color=%23400090&subject=sentry&status=SiCo-C)](https://sentry.io/sico/C/)
 
-An element of scheduler service
+An element for scheduler service
 
 #### N [Go to Project](https://github.com/SiCo-DevOps/N)
 
@@ -79,4 +80,4 @@ An element of scheduler service
 [![issue](http://tool.lu/shield/ajax.html?color=%234C1&subject=Issue&status=SiCo-N)](https://github.com/SiCo-DevOps/N/issues)
 [![sentry](http://tool.lu/shield/ajax.html?color=%23400090&subject=sentry&status=SiCo-N)](https://sentry.io/sico/N/)
 
-An element of orchestration service
+An element for orchestration service
