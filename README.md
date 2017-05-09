@@ -48,7 +48,7 @@ An element for AAA service
 [![issue](http://tool.lu/shield/ajax.html?color=%234C1&subject=Issue&status=SiCo-Li)](https://github.com/SiCo-DevOps/Li/issues)
 [![sentry](http://tool.lu/shield/ajax.html?color=%23400090&subject=sentry&status=SiCo-Li)](https://sentry.io/sico/Li/)
 
-An element for asset service
+An element for Cloud service
 
 #### Be [Go to Project](https://github.com/SiCo-DevOps/Be)
 
@@ -56,7 +56,7 @@ An element for asset service
 [![issue](http://tool.lu/shield/ajax.html?color=%234C1&subject=Issue&status=SiCo-Be)](https://github.com/SiCo-DevOps/Be/issues)
 [![sentry](http://tool.lu/shield/ajax.html?color=%23400090&subject=sentry&status=SiCo-Be)](https://sentry.io/sico/Be/)
 
-An element for cloud service
+An element for Asset service
 
 #### B [Go to Project](https://github.com/SiCo-DevOps/B)
 
@@ -64,7 +64,7 @@ An element for cloud service
 [![issue](http://tool.lu/shield/ajax.html?color=%234C1&subject=Issue&status=SiCo-B)](https://github.com/SiCo-DevOps/B/issues)
 [![sentry](http://tool.lu/shield/ajax.html?color=%23400090&subject=sentry&status=SiCo-B)](https://sentry.io/sico/B/)
 
-An element for CMDB service
+An element for ConfigManager service
 
 #### C [Go to Project](https://github.com/SiCo-DevOps/C)
 
