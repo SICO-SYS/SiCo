@@ -1,9 +1,9 @@
 ## SiCo
 
-[![gittter](http://tool.lu/shield/ajax.html?color=%23400090&subject=gitter&status=SiCo)](https://gitter.im/SiCo-DevOps/Lobby)
+[![gittter](http://tool.lu/shield/ajax.html?color=%23400090&subject=gitter&status=SiCo)](https://gitter.im/SiCo-Ops/Lobby)
 [![slack](http://tool.lu/shield/ajax.html?color=%23400090&subject=slack&status=SiCo)](https://sico-ops.slack.com/)
 
-### LICENSE(FOR ALL)  => [MIT License](https://github.com/SiCo-DevOps/SiCo/blob/master/LICENSE)
+### LICENSE(FOR ALL)  => [MIT License](https://github.com/SiCo-Ops/SiCo/blob/master/LICENSE)
 
 ### WHAT IS SiCo
   - SiCo is an intelligence operation platform for DevOps。
@@ -26,58 +26,58 @@
 
 ### SiCo elements
 
-#### H [Go to Project](https://github.com/SiCo-DevOps/H)
+#### H [Go to Project](https://github.com/SiCo-Ops/H)
 
-[![Build Status](https://travis-ci.org/SiCo-DevOps/H.svg?branch=master)](https://travis-ci.org/SiCo-DevOps/H)
-[![issue](http://tool.lu/shield/ajax.html?color=%234C1&subject=Issue&status=SiCo-H)](https://github.com/SiCo-DevOps/H/issues)
+[![Build Status](https://travis-ci.org/SiCo-Ops/H.svg?branch=master)](https://travis-ci.org/SiCo-Ops/H)
+[![issue](http://tool.lu/shield/ajax.html?color=%234C1&subject=Issue&status=SiCo-H)](https://github.com/SiCo-Ops/H/issues)
 [![sentry](http://tool.lu/shield/ajax.html?color=%23400090&subject=sentry&status=SiCo-H)](https://sentry.io/sico/H/)
 
 A Gateway for every element
 
-#### He [Go to Project](https://github.com/SiCo-DevOps/He)
+#### He [Go to Project](https://github.com/SiCo-Ops/He)
 
-[![Build Status](https://travis-ci.org/SiCo-DevOps/He.svg?branch=master)](https://travis-ci.org/SiCo-DevOps/He)
-[![issue](http://tool.lu/shield/ajax.html?color=%234C1&subject=Issue&status=SiCo-He)](https://github.com/SiCo-DevOps/He/issues)
+[![Build Status](https://travis-ci.org/SiCo-Ops/He.svg?branch=master)](https://travis-ci.org/SiCo-Ops/He)
+[![issue](http://tool.lu/shield/ajax.html?color=%234C1&subject=Issue&status=SiCo-He)](https://github.com/SiCo-Ops/He/issues)
 [![sentry](http://tool.lu/shield/ajax.html?color=%23400090&subject=sentry&status=SiCo-He)](https://sentry.io/sico/He/)
 
 An element for AAA service
 
-#### Li [Go to Project](https://github.com/SiCo-DevOps/Li)
+#### Li [Go to Project](https://github.com/SiCo-Ops/Li)
 
-[![Build Status](https://travis-ci.org/SiCo-DevOps/Li.svg?branch=master)](https://travis-ci.org/SiCo-DevOps/Li)
-[![issue](http://tool.lu/shield/ajax.html?color=%234C1&subject=Issue&status=SiCo-Li)](https://github.com/SiCo-DevOps/Li/issues)
+[![Build Status](https://travis-ci.org/SiCo-Ops/Li.svg?branch=master)](https://travis-ci.org/SiCo-Ops/Li)
+[![issue](http://tool.lu/shield/ajax.html?color=%234C1&subject=Issue&status=SiCo-Li)](https://github.com/SiCo-Ops/Li/issues)
 [![sentry](http://tool.lu/shield/ajax.html?color=%23400090&subject=sentry&status=SiCo-Li)](https://sentry.io/sico/Li/)
 
 An element for Cloud service
 
-#### Be [Go to Project](https://github.com/SiCo-DevOps/Be)
+#### Be [Go to Project](https://github.com/SiCo-Ops/Be)
 
-[![Build Status](https://travis-ci.org/SiCo-DevOps/Be.svg?branch=master)](https://travis-ci.org/SiCo-DevOps/Be)
-[![issue](http://tool.lu/shield/ajax.html?color=%234C1&subject=Issue&status=SiCo-Be)](https://github.com/SiCo-DevOps/Be/issues)
+[![Build Status](https://travis-ci.org/SiCo-Ops/Be.svg?branch=master)](https://travis-ci.org/SiCo-Ops/Be)
+[![issue](http://tool.lu/shield/ajax.html?color=%234C1&subject=Issue&status=SiCo-Be)](https://github.com/SiCo-Ops/Be/issues)
 [![sentry](http://tool.lu/shield/ajax.html?color=%23400090&subject=sentry&status=SiCo-Be)](https://sentry.io/sico/Be/)
 
 An element for Asset service
 
-#### B [Go to Project](https://github.com/SiCo-DevOps/B)
+#### B [Go to Project](https://github.com/SiCo-Ops/B)
 
-[![Build Status](https://travis-ci.org/SiCo-DevOps/B.svg?branch=master)](https://travis-ci.org/SiCo-DevOps/B)
-[![issue](http://tool.lu/shield/ajax.html?color=%234C1&subject=Issue&status=SiCo-B)](https://github.com/SiCo-DevOps/B/issues)
+[![Build Status](https://travis-ci.org/SiCo-Ops/B.svg?branch=master)](https://travis-ci.org/SiCo-Ops/B)
+[![issue](http://tool.lu/shield/ajax.html?color=%234C1&subject=Issue&status=SiCo-B)](https://github.com/SiCo-Ops/B/issues)
 [![sentry](http://tool.lu/shield/ajax.html?color=%23400090&subject=sentry&status=SiCo-B)](https://sentry.io/sico/B/)
 
 An element for ConfigManager service
 
-#### C [Go to Project](https://github.com/SiCo-DevOps/C)
+#### C [Go to Project](https://github.com/SiCo-Ops/C)
 
-[![Build Status](https://travis-ci.org/SiCo-DevOps/C.svg?branch=master)](https://travis-ci.org/SiCo-DevOps/C)
-[![issue](http://tool.lu/shield/ajax.html?color=%234C1&subject=Issue&status=SiCo-C)](https://github.com/SiCo-DevOps/C/issues)
+[![Build Status](https://travis-ci.org/SiCo-Ops/C.svg?branch=master)](https://travis-ci.org/SiCo-Ops/C)
+[![issue](http://tool.lu/shield/ajax.html?color=%234C1&subject=Issue&status=SiCo-C)](https://github.com/SiCo-Ops/C/issues)
 [![sentry](http://tool.lu/shield/ajax.html?color=%23400090&subject=sentry&status=SiCo-C)](https://sentry.io/sico/C/)
 
 An element for scheduler service
 
-#### N [Go to Project](https://github.com/SiCo-DevOps/N)
+#### N [Go to Project](https://github.com/SiCo-Ops/N)
 
-[![Build Status](https://travis-ci.org/SiCo-DevOps/N.svg?branch=master)](https://travis-ci.org/SiCo-DevOps/N)
-[![issue](http://tool.lu/shield/ajax.html?color=%234C1&subject=Issue&status=SiCo-N)](https://github.com/SiCo-DevOps/N/issues)
+[![Build Status](https://travis-ci.org/SiCo-Ops/N.svg?branch=master)](https://travis-ci.org/SiCo-Ops/N)
+[![issue](http://tool.lu/shield/ajax.html?color=%234C1&subject=Issue&status=SiCo-N)](https://github.com/SiCo-Ops/N/issues)
 [![sentry](http://tool.lu/shield/ajax.html?color=%23400090&subject=sentry&status=SiCo-N)](https://sentry.io/sico/N/)
 
 An element for orchestration service
