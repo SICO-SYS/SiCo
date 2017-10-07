@@ -29,51 +29,51 @@
 #### H [Go to Project](https://github.com/SiCo-Ops/H)
 
 [![Build Status](https://travis-ci.org/SiCo-Ops/H.svg?branch=master)](https://travis-ci.org/SiCo-Ops/H)
-[![gittter](http://tool.lu/shield/ajax.html?color=%23400090&subject=gitter&status=SiCo)](https://gitter.im/SiCo-DevOps/Hydrogen)
+[![gittter](http://tool.lu/shield/ajax.html?color=%23400090&subject=gitter&status=Hydrogen)](https://gitter.im/SiCo-DevOps/Hydrogen)
 
 H is short for Hydrogen, element handle all http requests and guide to other elements.
 
 #### He [Go to Project](https://github.com/SiCo-Ops/He)
 
 [![Build Status](https://travis-ci.org/SiCo-Ops/He.svg?branch=master)](https://travis-ci.org/SiCo-Ops/He)
-[![gittter](http://tool.lu/shield/ajax.html?color=%23400090&subject=gitter&status=SiCo)](https://gitter.im/SiCo-DevOps/Helium)
+[![gittter](http://tool.lu/shield/ajax.html?color=%23400090&subject=gitter&status=Helium)](https://gitter.im/SiCo-DevOps/Helium)
 
 He is short for Helium, element receive Authentication,Authorization,Accounting requests.
 
 #### Li [Go to Project](https://github.com/SiCo-Ops/Li)
 
 [![Build Status](https://travis-ci.org/SiCo-Ops/Li.svg?branch=master)](https://travis-ci.org/SiCo-Ops/Li)
-[![gittter](http://tool.lu/shield/ajax.html?color=%23400090&subject=gitter&status=SiCo)](https://gitter.im/SiCo-DevOps/Lithium)
+[![gittter](http://tool.lu/shield/ajax.html?color=%23400090&subject=gitter&status=Lithium)](https://gitter.im/SiCo-DevOps/Lithium)
 
 Li is short for Lithium, element receive third party cloud requests like Amazon Web Service , Aliyun , Qcloud etc.
 
 #### Be [Go to Project](https://github.com/SiCo-Ops/Be)
 
 [![Build Status](https://travis-ci.org/SiCo-Ops/Be.svg?branch=master)](https://travis-ci.org/SiCo-Ops/Be)
-[![gittter](http://tool.lu/shield/ajax.html?color=%23400090&subject=gitter&status=SiCo)](https://gitter.im/SiCo-DevOps/Beryllium)
+[![gittter](http://tool.lu/shield/ajax.html?color=%23400090&subject=gitter&status=Beryllium)](https://gitter.im/SiCo-DevOps/Beryllium)
 
 Be is short for Beryllium, element receive asset requests to manage resources from public cloud, private cloud, physical servers etc.
 
 #### B [Go to Project](https://github.com/SiCo-Ops/B)
 
 [![Build Status](https://travis-ci.org/SiCo-Ops/B.svg?branch=master)](https://travis-ci.org/SiCo-Ops/B)
-[![gittter](http://tool.lu/shield/ajax.html?color=%23400090&subject=gitter&status=SiCo)](https://gitter.im/SiCo-DevOps/Boron)
+[![gittter](http://tool.lu/shield/ajax.html?color=%23400090&subject=gitter&status=Boron)](https://gitter.im/SiCo-DevOps/Boron)
 
 B is short for Boron, element receive requests to store and access configs.
 
 #### C [Go to Project](https://github.com/SiCo-Ops/C)
 
 [![Build Status](https://travis-ci.org/SiCo-Ops/C.svg?branch=master)](https://travis-ci.org/SiCo-Ops/C)
-[![gittter](http://tool.lu/shield/ajax.html?color=%23400090&subject=gitter&status=SiCo)](https://gitter.im/SiCo-DevOps/Carbon)
+[![gittter](http://tool.lu/shield/ajax.html?color=%23400090&subject=gitter&status=Carbon)](https://gitter.im/SiCo-DevOps/Carbon)
 
 C is short for Carbon, element automatically execute schedule planning tasks , call other elements to record results which need.  
 
 #### N [Go to Project](https://github.com/SiCo-Ops/N)
 
 [![Build Status](https://travis-ci.org/SiCo-Ops/N.svg?branch=master)](https://travis-ci.org/SiCo-Ops/N)
-[![gittter](http://tool.lu/shield/ajax.html?color=%23400090&subject=gitter&status=SiCo)](https://gitter.im/SiCo-DevOps/Neon)
+[![gittter](http://tool.lu/shield/ajax.html?color=%23400090&subject=gitter&status=Nitrogen)](https://gitter.im/SiCo-DevOps/Nitrogen)
 
-N is short for Neon, element orchestrate tasks that how to complete all of the jobs.
+N is short for Nitrogen, element orchestrate tasks that how to complete all of the jobs.
 
 ### DONATE
 
