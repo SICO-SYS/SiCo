@@ -1,9 +1,9 @@
 ## SiCo
 
-[![gittter](http://tool.lu/shield/ajax.html?color=%23400090&subject=gitter&status=SiCo)](https://gitter.im/SiCo-Ops/Lobby)
+[![gittter](http://tool.lu/shield/ajax.html?color=%23400090&subject=gitter&status=SiCo)](https://gitter.im/SiCo-DevOps/Freedom)
 [![slack](http://tool.lu/shield/ajax.html?color=%23400090&subject=slack&status=SiCo)](https://sico-ops.slack.com/)
 
-### LICENSE(FOR ALL)  => [MIT License](https://github.com/SiCo-Ops/SiCo/blob/master/LICENSE)
+### LICENSE  = [MIT License](https://github.com/SiCo-Ops/SiCo/blob/master/LICENSE)
 
 ### WHAT IS SiCo
   - SiCo is an intelligence operation platform for DevOps。
@@ -14,10 +14,10 @@
 ### THIRD-PARTY SERVICE
   - we use travis-ci to do CI,CD for initial，but we'll take it by this API.
   - we use gitter.im to communicate with users, a public annoncement platform.
+  - we use slack to communicate with every developer who want to be a contributor.
   - we use sentry.io to know what problem in sico, find bugs easy.
   - we use new relic to track our API performance.
-  - we use slack to communicate with every developer who want to be a contributor.
-  - we will use jira to assign tasks & arrange the release planning.
+  - we use [jira](https://sico-ops.atlassian.net) to assign tasks & arrange the release planning.
 
 ### HOW TO REPORT AN ISSUE
   * Open an issue on relate project
@@ -29,58 +29,51 @@
 #### H [Go to Project](https://github.com/SiCo-Ops/H)
 
 [![Build Status](https://travis-ci.org/SiCo-Ops/H.svg?branch=master)](https://travis-ci.org/SiCo-Ops/H)
-[![issue](http://tool.lu/shield/ajax.html?color=%234C1&subject=Issue&status=SiCo-H)](https://github.com/SiCo-Ops/H/issues)
-[![sentry](http://tool.lu/shield/ajax.html?color=%23400090&subject=sentry&status=SiCo-H)](https://sentry.io/sico/H/)
+[![gittter](http://tool.lu/shield/ajax.html?color=%23400090&subject=gitter&status=SiCo)](https://gitter.im/SiCo-DevOps/Hydrogen)
 
-A Gateway for every element
+H is short for Hydrogen, element handle all http requests and guide to other elements.
 
 #### He [Go to Project](https://github.com/SiCo-Ops/He)
 
 [![Build Status](https://travis-ci.org/SiCo-Ops/He.svg?branch=master)](https://travis-ci.org/SiCo-Ops/He)
-[![issue](http://tool.lu/shield/ajax.html?color=%234C1&subject=Issue&status=SiCo-He)](https://github.com/SiCo-Ops/He/issues)
-[![sentry](http://tool.lu/shield/ajax.html?color=%23400090&subject=sentry&status=SiCo-He)](https://sentry.io/sico/He/)
+[![gittter](http://tool.lu/shield/ajax.html?color=%23400090&subject=gitter&status=SiCo)](https://gitter.im/SiCo-DevOps/Helium)
 
-An element for AAA service
+He is short for Helium, element receive Authentication,Authorization,Accounting requests.
 
 #### Li [Go to Project](https://github.com/SiCo-Ops/Li)
 
 [![Build Status](https://travis-ci.org/SiCo-Ops/Li.svg?branch=master)](https://travis-ci.org/SiCo-Ops/Li)
-[![issue](http://tool.lu/shield/ajax.html?color=%234C1&subject=Issue&status=SiCo-Li)](https://github.com/SiCo-Ops/Li/issues)
-[![sentry](http://tool.lu/shield/ajax.html?color=%23400090&subject=sentry&status=SiCo-Li)](https://sentry.io/sico/Li/)
+[![gittter](http://tool.lu/shield/ajax.html?color=%23400090&subject=gitter&status=SiCo)](https://gitter.im/SiCo-DevOps/Lithium)
 
-An element for Cloud service
+Li is short for Lithium, element receive third party cloud requests like Amazon Web Service , Aliyun , Qcloud etc.
 
 #### Be [Go to Project](https://github.com/SiCo-Ops/Be)
 
 [![Build Status](https://travis-ci.org/SiCo-Ops/Be.svg?branch=master)](https://travis-ci.org/SiCo-Ops/Be)
-[![issue](http://tool.lu/shield/ajax.html?color=%234C1&subject=Issue&status=SiCo-Be)](https://github.com/SiCo-Ops/Be/issues)
-[![sentry](http://tool.lu/shield/ajax.html?color=%23400090&subject=sentry&status=SiCo-Be)](https://sentry.io/sico/Be/)
+[![gittter](http://tool.lu/shield/ajax.html?color=%23400090&subject=gitter&status=SiCo)](https://gitter.im/SiCo-DevOps/Beryllium)
 
-An element for Asset service
+Be is short for Beryllium, element receive asset requests to manage resources from public cloud, private cloud, physical servers etc.
 
 #### B [Go to Project](https://github.com/SiCo-Ops/B)
 
 [![Build Status](https://travis-ci.org/SiCo-Ops/B.svg?branch=master)](https://travis-ci.org/SiCo-Ops/B)
-[![issue](http://tool.lu/shield/ajax.html?color=%234C1&subject=Issue&status=SiCo-B)](https://github.com/SiCo-Ops/B/issues)
-[![sentry](http://tool.lu/shield/ajax.html?color=%23400090&subject=sentry&status=SiCo-B)](https://sentry.io/sico/B/)
+[![gittter](http://tool.lu/shield/ajax.html?color=%23400090&subject=gitter&status=SiCo)](https://gitter.im/SiCo-DevOps/Boron)
 
-An element for ConfigManager service
+B is short for Boron, element receive requests to store and access configs.
 
 #### C [Go to Project](https://github.com/SiCo-Ops/C)
 
 [![Build Status](https://travis-ci.org/SiCo-Ops/C.svg?branch=master)](https://travis-ci.org/SiCo-Ops/C)
-[![issue](http://tool.lu/shield/ajax.html?color=%234C1&subject=Issue&status=SiCo-C)](https://github.com/SiCo-Ops/C/issues)
-[![sentry](http://tool.lu/shield/ajax.html?color=%23400090&subject=sentry&status=SiCo-C)](https://sentry.io/sico/C/)
+[![gittter](http://tool.lu/shield/ajax.html?color=%23400090&subject=gitter&status=SiCo)](https://gitter.im/SiCo-DevOps/Carbon)
 
-An element for scheduler service
+C is short for Carbon, element automatically execute schedule planning tasks , call other elements to record results which need.  
 
 #### N [Go to Project](https://github.com/SiCo-Ops/N)
 
 [![Build Status](https://travis-ci.org/SiCo-Ops/N.svg?branch=master)](https://travis-ci.org/SiCo-Ops/N)
-[![issue](http://tool.lu/shield/ajax.html?color=%234C1&subject=Issue&status=SiCo-N)](https://github.com/SiCo-Ops/N/issues)
-[![sentry](http://tool.lu/shield/ajax.html?color=%23400090&subject=sentry&status=SiCo-N)](https://sentry.io/sico/N/)
+[![gittter](http://tool.lu/shield/ajax.html?color=%23400090&subject=gitter&status=SiCo)](https://gitter.im/SiCo-DevOps/Neon)
 
-An element for orchestration service
+N is short for Neon, element orchestrate tasks that how to complete all of the jobs.
 
 ### DONATE
 
