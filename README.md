@@ -24,6 +24,19 @@
   * Tell us the issue's link on gitter.im if you want to quickly get the feedback
   * We are glad to you can open a pull request to us to fix the issue. 
 
+### QUICK START WITH DOCKER SWARM
+- `docker network create -d overlay --subnet 192.168.0.0/16 sico`
+- `docker service create --name redis-config --hostname redis-config --replicas 1 --network sico redis`
+- `docker service create --name redis-public --hostname redis-public --replicas 1 --network sico redis`
+- `docker service create --name mongo-user --hostname mongo-user --replicas 1 --network sico mongo`
+- `docker service create --name mongo-cloud --hostname mongo-cloud --replicas 1 --network sico mongo`
+- `docker service create --name mongo-asset --hostname mongo-asset --replicas 1 --network sico mongo`
+- `docker service create --name boron  --replicas 1 --network sico sinerwr/boron:stable-1.0.4`
+- `docker service create --name hydrogen --publish 80:2048  --replicas 1 --network sico sinerwr/hydrogen:stable-1.0.4`
+- `docker service create --name helium  --replicas 1 --network sico sinerwr/helium:stable-1.0.4`
+- `docker service create --name lithium  --replicas 1 --network sico sinerwr/lithium:stable-1.0.4`
+- `docker service create --name beryllium  --replicas 1 --network sico sinerwr/beryllium:stable-1.0.4`
+
 ### SiCo elements
 
 #### H [Go to Project](https://github.com/SiCo-Ops/H)
