@@ -11,6 +11,10 @@
   - SiCo takes jos simple and easy
   - SiCo helps you save more time to accompany your family。 
 
+### DEMO
+- [API Document](https://app.swaggerhub.com/apis/SingleCorner/SiCo-Ops/1.0.0)
+- [Generate Token Demo](https://api.sico.io/public/token)
+
 ### THIRD-PARTY SERVICE
   - we use travis-ci to do CI,CD for initial，but we'll take it by this API.
   - we use gitter.im to communicate with users, a public annoncement platform.
