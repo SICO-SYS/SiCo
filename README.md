@@ -8,7 +8,7 @@
 ### WHAT IS SiCo
   - SiCo is an intelligence operation platform for DevOps。
   - SiCo just an API so everyone can make a self UI.
-  - SiCo takes jos simple and easy
+  - SiCo makes works simple and easy
   - SiCo helps you save more time to accompany your family。 
 
 ### DEMO

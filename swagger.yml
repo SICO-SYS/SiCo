@@ -1,0 +1,330 @@
+openapi: 3.0.0
+servers:
+  - url: 'https://api.sico.io'
+info:
+  description: API documentation for developers
+  version: "1.0.0"
+  title: SiCo-Ops API
+  contact:
+    email: sinerwr@gmail.com
+  license:
+    name: MIT
+    url: 'https://mit-license.org'
+tags:
+  - name: Version 1.x.x
+  
+paths:
+  /public/token:
+    get:
+      tags:
+        - Version 1.x.x
+      summary: generate a public token
+      description: |
+        Once you want to access non-auth interface,
+        you must have a public token 
+      responses:
+        '200':
+          description: public token response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/publicTokenResponse'
+  
+  /public/version:
+    get:
+      tags:
+        - Version 1.x.x
+      summary: get system version
+      description: |
+        Once you want to access non-auth interface,
+        you must have a public token 
+      responses:
+        '200':
+          description: version response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/publicVersionResponse'
+ 
+  /v1/AAA/token:
+    post:
+      tags:
+        - Version 1.x.x
+      summary: Generate sico token
+      description: Generate sico token
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/v1AAATokenRequest'
+        description: request params
+      responses:
+        '200':
+          description: token pair response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/v1AAATokenResponse'
+ 
+  /v1/AAA/authentication:
+    post:
+      tags:
+        - Version 1.x.x
+      summary: adds an inventory item
+      operationId: addInventory
+      description: Adds an item to the system
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/v1AAAAuthenticationRequest'
+        description: Inventory item to add
+      responses:
+        '200':
+          description: search results matching criteria
+          content:
+            application/json:
+              schema:
+                type: object
+                items:
+                  $ref: '#/components/schemas/SuccessResponse'
+          
+  /v1/cloud/{cloud}/{service}:
+    post:
+      tags:
+        - Version 1.x.x
+      summary: Proxy to cloud with privateToken
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/v1CloudAPIRequest'
+      responses:
+        '200':
+          description: Follow the product document
+          
+  /v1/cloud/{cloud}/{service}/raw:
+    post:
+      tags:
+        - Version 1.x.x
+      summary: Proxy to cloud with publicToken
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/v1CloudAPIRawRequest'
+      responses:
+        '200':
+          description: Follow the product document
+  
+  /v1/cloud/token:
+    post:
+      tags:
+        - Version 1.x.x
+      summary: Store cloud token
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/v1CloudTokenRequest'
+      responses:
+        '200':
+          description: search results matching criteria
+          content:
+            application/json:
+              schema:
+                type: object
+                items:
+                  $ref: '#/components/schemas/SuccessResponse'
+
+  /v1/asset/template:
+    post:
+      tags:
+        - Version 1.x.x
+      summary: Store template to access cloud openAPI
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/v1CloudTokenRequest'
+      responses:
+        '200':
+          description: search results matching criteria
+          content:
+            application/json:
+              schema:
+                type: object
+                items:
+                  $ref: '#/components/schemas/SuccessResponse'
+    
+  /v1/asset/synchronize:
+    post:
+      tags:
+        - Version 1.x.x
+      summary: Store template to access cloud openAPI
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/v1CloudTokenRequest'
+      responses:
+        '200':
+          description: search results matching criteria
+          content:
+            application/json:
+              schema:
+                type: object
+                items:
+                  $ref: '#/components/schemas/SuccessResponse'
+
+components:
+  schemas:
+    SuccessResponse:
+      type: object
+      properties:
+        code:
+          type: integer
+          format: int64
+          example: 0
+        data:
+          type: string
+          example: Success
+    publicTokenResponse:
+      type: object
+      properties:
+        code:
+          type: integer
+          format: int64
+          example: 0
+        data:
+          $ref: '#/components/schemas/publicToken'
+    publicVersionResponse:
+      type: object
+      properties:
+        code: 
+          type: integer
+          format: int64
+          example: 0
+        data:
+          type: string
+          example: '[success] 1.0.0'
+    v1AAATokenRequest:
+      type: object
+      properties:
+        token:
+          type: string
+          example: '1234567890abcdef'
+        email:
+          type: string
+          example: sinerwr@gmail.com
+        phone:
+          type: string
+          example: 18200010002  
+    v1AAATokenResponse:
+      type: object 
+      properties:
+        code:
+          type: integer
+          format: int64
+          example: 0
+        data:
+          $ref: '#/components/schemas/privateToken'
+    v1AAAAuthenticationRequest:
+      type: object 
+      properties:
+        token:
+          type: string
+          example: 48783847cdafe923
+        id:
+          type: string
+          example: 48783847cdafe923
+        signature:
+          type: string
+          example: 48783847cdafe923
+    v1CloudAPIRequest:
+      type: object 
+      properties:
+        token:
+          $ref: '#/components/schemas/privateToken'
+        name:
+          type: string
+          example: aws_ak_ac
+        region:
+          type: string
+          example: us-east-1
+        action:
+          type: string
+          example: DescribeInstances
+        params:
+          $ref: '#/components/schemas/virtualParams'
+    v1CloudAPIRawRequest:
+      type: object 
+      properties:
+        token:
+          type: string
+          example: 48783847cdafe923
+        cloudid:
+          type: string
+          example: AK48783847cdafe923
+        cloudkey:
+          type: string
+          example: 4234&324/dfgH        
+        region:
+          type: string
+          example: us-east-1
+        action:
+          type: string
+          example: DescribeInstances
+        params:
+          $ref: '#/components/schemas/virtualParams'
+    v1CloudTokenRequest:
+      type: object 
+      properties:
+        token:
+          $ref: '#/components/schemas/privateToken'
+        cloud:
+          type: string
+          example: aws
+        name:
+          type: string
+          example: aws_ak_ac
+        id:
+          type: string
+          example: AK48783847cdafe923
+        key:
+          type: string
+          example: 4234&324/dfgH
+    v1AssetTemplateRequest:
+      type: object 
+      properties:
+        token:
+          $ref: '#/components/schemas/privateToken'
+        name:
+          type: string
+          example: C4M8_AWS_EC2
+        param:
+          $ref: '#/components/schemas/virtualParams'
+    publicToken:
+      type: object
+      properties:
+        token:
+          type: string
+          example: '1234567890abcdef'
+    privateToken:
+      type: object
+      properties:
+        id:
+          type: string
+          example: '1234567890abcdef'
+        key:
+          type: string
+          example: 'fedcba0987654321'
+    virtualParams:
+      type: object
+      properties:
+        key1:
+          type: string
+          example: value1
+        key2:
+          type: string
+          example: value2
